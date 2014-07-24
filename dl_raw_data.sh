@@ -8,9 +8,13 @@ case "$choice" in
   y|Y ) 
     wget -r "http://147.8.142.179/datazip/"
     #  Downloaded: 57 files, 18G in 6h 42m 3s (803 KB/s)
-    cd 147.8.142.179/datazip/
+    
+    echo "renaming DIR to data"    
+    mv 147.8.142.179/datazip data/datazip ;;
+    rm -R 147.8.142.179 ;;
+
     echo "now unziping files"
-    ls *zip | xargs -i unzip {} ;;
+    ls data/datazip/*zip | xargs -i rm {}
 
   n|N ) echo "Ok, bye.";;
   * ) echo "invalid input";;
