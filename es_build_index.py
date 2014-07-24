@@ -13,8 +13,8 @@ if "TOPOGRAM_RAW_DATA_PATH" in os.environ:
 else: raise Exception("TOPOGRAM_RAW_DATA_PATH is not defined !")
 
 if "TOPOGRAM_TMP_PATH" in os.environ:
-    raw_path=os.environ.get('TOPOGRAM_TMP_PATH')
-else: raw_path='/tmp'
+    tmp_path=os.environ.get('TOPOGRAM_TMP_PATH')
+else: tmp_path='/tmp'
 
 raw_data_path=os.path.join(raw_path,"data/datazip/selected/")
 pid_file=os.path.join(tmp_path,"data/tmp/csv_chunk")
@@ -22,11 +22,11 @@ pid_file=os.path.join(tmp_path,"data/tmp/csv_chunk")
 
 # config elasticsearch
 if "TOPOGRAM_ES_HOST" in os.environ:
-    raw_path=os.environ.get('TOPOGRAM_ES_HOST')
-else: raw_path='http://localhost:9200/'
+    es_host=os.environ.get('TOPOGRAM_ES_HOST')
+else: es_host='http://localhost:9200/'
 
 # init ElasticSearch
-es = ElasticSearch()
+es = ElasticSearch(es_host)
 
 # size of CSV chunk to process
 chunksize=1000
