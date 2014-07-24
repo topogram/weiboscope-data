@@ -5,17 +5,24 @@ Download, extract and index the the Weiboscope dataset collected from **Sina Wei
 Requirements are  :
 
     * 30+ GB free space
+    * ElasticSearch
+    * ElasticSearch SmartCN Analyzer plugin
     * MongoDB
     * Python 2.7
 
-## Setup
+## How to use it
 
     ./setup.sh
 
+
+## Install
+
+You will need mongoDB and Elastic Search with the [Smart Chinese Analyzer](https://github.com/elasticsearch/elasticsearch-analysis-smartcn)
+
+    bin/plugin -install elasticsearch/elasticsearch-analysis-smartcn/2.1.0
+
+
 ## Data : the Weiboscope  corpus 
-
-
-
 
 The dataset contains sample data from 52 weeks of 2012 from more than 350,000 Chinese microbloggers who have more than 1,000 followers [(Fu, Chan &Chau, 2013)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2265271).
 
