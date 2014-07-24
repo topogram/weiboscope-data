@@ -10,8 +10,7 @@ Requirements are  :
 
 ## Setup
 
-Mongo host : localhost and port : 27017
-
+    ./setup.sh
 
 ## Test data : the Weiboscope  corpus 
 The dataset contains sample data from 52 weeks of 2012 from more than 350,000 Chinese microbloggers who have more than 1,000 followers (Fu, Chan, Chau, 2013 ; Fu, Chau, 2013).
