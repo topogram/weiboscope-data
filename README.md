@@ -13,7 +13,7 @@ Requirements are  :
     ./setup.sh
 
 ## Test data : the Weiboscope  corpus 
-The dataset contains sample data from 52 weeks of 2012 from more than 350,000 Chinese microbloggers who have more than 1,000 followers (Fu, Chan, Chau, 2013 ; Fu, Chau, 2013).
+The dataset contains sample data from 52 weeks of 2012 from more than 350,000 Chinese microbloggers who have more than 1,000 followers [(Fu, Chan &Chau, 2013)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2265271).
 
 Note : this data has been anonymized
 
@@ -24,3 +24,4 @@ Note : this data has been anonymized
     * Number of censored ('Permission Denied') messages: 86083
     * Number of unique weibo users: 14387628
     * 57 files, 18G
+
