@@ -1,6 +1,6 @@
 # Topogram Data
 
-We use the Weiboscope dataset from HKU University, JMSC - [link](http://147.8.142.179/datazip/).
+Download, extract and index the the Weiboscope dataset collected from **Sina Weibo** by JMSC HKU - [link](http://147.8.142.179/datazip/).
 
 Requirements are  :
 
@@ -12,7 +12,11 @@ Requirements are  :
 
     ./setup.sh
 
-## Test data : the Weiboscope  corpus 
+## Data : the Weiboscope  corpus 
+
+
+
+
 The dataset contains sample data from 52 weeks of 2012 from more than 350,000 Chinese microbloggers who have more than 1,000 followers [(Fu, Chan &Chau, 2013)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2265271).
 
 Note : this data has been anonymized
