@@ -10,6 +10,8 @@ Requirements are  :
     * MongoDB
     * Python 2.7
 
+Tested on Debian 
+
 ## How to use it
 
     ./setup.sh
@@ -17,7 +19,7 @@ Requirements are  :
 
 ## Install
 
-You will need mongoDB and Elastic Search with the [Smart Chinese Analyzer](https://github.com/elasticsearch/elasticsearch-analysis-smartcn)
+You will need mongoDB and [Elastic Search](http://www.elasticsearch.org/download) with the [Smart Chinese Analyzer](https://github.com/elasticsearch/elasticsearch-analysis-smartcn)
 
     bin/plugin -install elasticsearch/elasticsearch-analysis-smartcn/2.1.0
 
