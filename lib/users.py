@@ -19,7 +19,7 @@ class UserAPI:
         print '-'*12
 
         # fetch cities
-        here=path.dirname(path.dirname(path.abspath(__file__)))
+        here=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         provinces_file=os.path.join(here,"data/provinces.csv")
         self.provinces={}
 
