@@ -13,7 +13,7 @@ def build_es_index(raw_data_path):
     else: tmp_path='/tmp'
 
     # raw_data_path=os.path.join(raw_path,"data/datazip/selected/")
-    pid_file=os.path.join(tmp_path,"data/tmp/csv_chunk")
+    pid_file=os.path.join(tmp_path,"csv_chunk")
 
     # config elasticsearch
     if "TOPOGRAM_ES_HOST" in os.environ:
@@ -68,7 +68,7 @@ def build_es_index(raw_data_path):
             
                 # flag the file
                 zip_path=os.path.join(path,filename)
-                print zip_path
+                # print zip_path
                 if filename[-10:] != "processing": 
                     os.rename(zip_path, zip_path+".processing")
                     zip_path=os.path.join(path,filename+".processing")
