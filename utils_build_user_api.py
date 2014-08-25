@@ -30,7 +30,8 @@ def create_user_api(userdata_file):
     print "%d users saved"%i
 
 if __name__ == "__main__":
-    if os.path.isfile(sys.argv[1]) and sys.argv[1][0:len("userdata.csv")] == "userdata.csv":
+    if os.path.isfile(sys.argv[1]) :
+        # and sys.argv[1][0:len("userdata.csv")] == "userdata.csv":
         create_user_api(sys.argv[1])
     else :
         raise ValueError("File name should be userdata.csv")
