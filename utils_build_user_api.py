@@ -12,7 +12,7 @@ if "TOPOGRAM_RAW_DATA_PATH" in os.environ:
     raw_path=os.environ.get('TOPOGRAM_RAW_DATA_PATH')
 else: raise Exception("TOPOGRAM_RAW_DATA_PATH is not defined !")
 
-userdata_file=os.path.join(raw_path, "data/datazip/others/userdata.csv")
+userdata_file=os.path.join(raw_path, "userdata.csv")
 
 print userdata_file
 # number of lines : 14,388,386 users
