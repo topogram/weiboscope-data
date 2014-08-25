@@ -14,11 +14,9 @@ Tested on Debian
 
 ## How to use it
 
-This will download the complete dataset (18G), build the User API data and index all content to elasticsearch. 
+Download the complete dataset (18G), build the User API data and index all content to elasticsearch. 
 
-    chmod +x setup.sh
-    ./setup.sh
-
+The prefered way to achieve this is to use the [deployment scripts](https://github.com/topogram/topogram-deploy)
 
 ## Install
 
