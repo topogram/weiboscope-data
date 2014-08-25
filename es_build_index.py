@@ -133,7 +133,7 @@ def build_es_index(raw_data_path):
     print "Everything done in %.3fs"%(time()-t0)
 
 if __name__ == "__main__":
-    if os.path.isfile(sys.argv[1]):
+    if os.path.isdir(sys.argv[1]):
         print sys.argv[1]
         build_es_index(sys.argv[1])
 
