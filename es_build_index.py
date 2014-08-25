@@ -134,7 +134,7 @@ def build_es_index(raw_data_path):
 
 if __name__ == "__main__":
     if os.path.isfile(sys.argv[1]):
-        print raw_data_path[1]
-        # build_es_index(raw_data_path[1])
+        print sys.argv[1]
+        build_es_index(sys.argv[1])
 
 
