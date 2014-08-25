@@ -31,7 +31,7 @@ def build_es_index(raw_data_path):
     for r in xrange(1,52,2):
         weeks[r]=weeks[r+1]="weiboscope_"+str(r)+"_"+str(r+1)
 
-    for w in  weeks: print w,weeks[w]
+    # for w in  weeks: print w,weeks[w]
 
     # init
     previous_chunk=0
@@ -67,10 +67,11 @@ def build_es_index(raw_data_path):
                 i_file+=1
             
                 # flag the file
-                zip_path=path+filename
+                zip_path=os.path.join(path,filename)
+                print zip_path
                 if filename[-10:] != "processing": 
                     os.rename(zip_path, zip_path+".processing")
-                    zip_path=path+filename+".processing"
+                    zip_path=os.path.join(path,filename+".processing")
 
                 raw_csvname=filename.split(".")[0]+".csv" 
                 
