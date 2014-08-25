@@ -14,6 +14,8 @@ Tested on Debian
 
 ## How to use it
 
+This will download the complete dataset (18G), build the User API data and index all content to elasticsearch. 
+
     ./setup.sh
 
 
