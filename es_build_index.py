@@ -4,7 +4,7 @@
 from pyelasticsearch import ElasticSearch
 import pandas as pd
 from time import time
-import os, zipfile
+import os, zipfile, sys
 import codecs
 
 def build_es_index(raw_data_path):
