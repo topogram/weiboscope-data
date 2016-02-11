@@ -1,4 +1,4 @@
-# Topogram Data
+# Weiboscope Data
 
 Download, extract and index the the Weiboscope dataset collected from **Sina Weibo** by JMSC HKU ([available here](http://147.8.142.179/datazip/)).
 
@@ -14,8 +14,6 @@ Tested on Debian
 
 ## How to use it
 Download the complete dataset (18G), build the User API data and index all content to elasticsearch. 
-
-The prefered way to achieve this is to use the [deployment scripts](https://github.com/topogram/topogram-deploy)
 
 ## Install
 
