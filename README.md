@@ -1,6 +1,6 @@
 # Weiboscope Data
 
-Download, extract and index the the Weiboscope dataset collected from **Sina Weibo** by JMSC HKU ([available here](http://147.8.142.179/datazip/)).
+Download, extract and index the the Weiboscope dataset collected from **Sina Weibo** by JMSC HKU ([available here](https://hub.hku.hk/cris/dataset/dataset107483)).
 
 Requirements are  :
 
@@ -24,7 +24,7 @@ You will need mongoDB and [Elastic Search](http://www.elasticsearch.org/download
 
 ## Data : the Weiboscope  corpus 
 
-The [Weiboscope dataset](http://147.8.142.179/datazip/). contains sample data from 52 weeks of 2012 from more than 350,000 Chinese microbloggers who have more than 1,000 followers [(Fu, Chan &Chau, 2013)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2265271).
+The [Weiboscope dataset](https://hub.hku.hk/cris/dataset/dataset107483). contains sample data from 52 weeks of 2012 from more than 350,000 Chinese microbloggers who have more than 1,000 followers [(Fu, Chan &Chau, 2013)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2265271).
 
 Note : this data has been anonymized
 
