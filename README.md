@@ -1,6 +1,6 @@
 # Weiboscope Data
 
-Download, extract and index the the Weiboscope dataset collected from **Sina Weibo** by JMSC HKU ([available here](https://hub.hku.hk/cris/dataset/dataset107483)).
+Download, extract and index the Weiboscope dataset collected from **Sina Weibo** by JMSC HKU ([available here](https://hub.hku.hk/cris/dataset/dataset107483)).
 
 Requirements are  :
 
